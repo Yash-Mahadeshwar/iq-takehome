@@ -1,0 +1,31 @@
+# Secrets — never commit
+.env
+
+# Vector database on-disk storage (large, regenerated via /ingest)
+chroma_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+/tmp/
